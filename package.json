@@ -1,0 +1,34 @@
+{
+  "name": "js-assessment",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "morgan": "^1.9.0",
+    "uuid": "^3.1.0"
+  },
+  "description": "• Building API for a Costume Shop • MVC structure with Express",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robsonpf/complex-API-costume-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/robsonpf/complex-API-costume-shop/issues"
+  },
+  "homepage": "https://github.com/robsonpf/complex-API-costume-shop#readme"
+}
