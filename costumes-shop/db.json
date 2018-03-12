@@ -1,4 +1,1 @@
-[{"id": "1", "name": "Game of Thrones Barbarian Warrior Costume", "Price": 146, "description": "Game of Thrones Halloween Costume", "tags":[{"id": "100", "name": "Barbarian Women Warrior", "color":"#42f462"}]},
-{"id": "2", "name": "Headless Horseman Costume", "Price": 77, "description": "Halloween Costume", "tags":[{"id": "200", "name": "Headless Costume", "color":"#f4d942"}]},
-{"id": "3", "name": "Jon Snow Nights Watch Battle Armour Costume", "Price": 317, "description": "Halloween Game Of Thrones Costume", "tags":[{"id": "300", "name": "Game of Thrones Costumes", "color":"#595959"}]}
-]
+[{"id":"1","name":"Game of Thrones Barbarian Warrior Costume","Price":146,"description":"Game of Thrones Halloween Costume","tags":[{"id":"100","name":"Barbarian Women Warrior","color":"#42f462"}]},{"id":"2","name":"Headless Horseman Costume","Price":77,"description":"Halloween Costume","tags":[{"id":"200","name":"Headless Costume","color":"#f4d942"}]},{"id":"3","name":"Jon Snow Nights Watch Battle Armour Costume","Price":317,"description":"Halloween Game Of Thrones Costume","tags":[{"id":"300","name":"Game of Thrones Costumes","color":"#595959"}]}]
