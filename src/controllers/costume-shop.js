@@ -43,7 +43,7 @@ getById = (req, res, next) => {
 
 
 update = (req, res, next) => {
-  const costume = model.update(req.body)
+  const costume = model.update(req.body, req.params.id)
 
   if (costume.errors) {
     return next({
@@ -52,12 +52,21 @@ update = (req, res, next) => {
       errors: costume.errors
     })
   }
-  res.status(200).join({ costume })
+  res.status(200).json({ costume })
 }
 
 
 deleteById = (req, res, next) => {
+  const costume = model.deleteById(req.params.id)
 
+  if (costume.errors) {
+    return next({
+      status: costume.status,
+      mesages: costume.messages,
+      errors: costume.errors
+    })
+  }
+  res.status(200).json({ costume })
 }
 
 
