@@ -4,6 +4,8 @@
   "description": "• Building API for a Costume Shop • MVC structure with Express",
   "main": "app.js",
   "scripts": {
+    "run": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/robsonpf/complex-API-costume-shop/issues"
   },
-  "homepage": "https://github.com/robsonpf/complex-API-costume-shop#readme"
+  "homepage": "https://github.com/robsonpf/complex-API-costume-shop#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^5.0.4"
+  }
 }
