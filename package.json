@@ -4,7 +4,8 @@
   "main": "app.js",
   "license": "MIT",
   "engines": {
-    "node": "9.4.0"
+    "node": "9.4.0",
+    "npm": "5.7.1"
   },
   "scripts": {
     "dev": "nodemon app.js",
@@ -21,7 +22,6 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "morgan": "^1.9.0",
-    "npm": "^5.7.1",
     "uuid": "^3.1.0"
   },
   "description": "• Building API for a Costume Shop • MVC structure with Express",
