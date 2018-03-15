@@ -30,7 +30,7 @@ getById = (req, res, next) => {
 
 
 update = (req, res, next) => {
-  const tag = model.update(req.params.id, req.body)
+  const tag = model.update(req.params.id, req.body, req.params.tagsId)
 
   if (tag.errors) {
     return next({
@@ -44,7 +44,7 @@ update = (req, res, next) => {
 
 
 deleteById = (req, res, next) => {
-  const tag = model.deleteById(req.params.id)
+  const tag = model.deleteById(req.params.id, req.params.tagsId)
 
   if (tag.errors) {
     return next({

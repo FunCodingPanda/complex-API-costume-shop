@@ -12,7 +12,7 @@ router.delete('/:id', ctrl.deleteById)
 
 router.post('/:id/tags', ctrlTags.create)
 router.get('/:id/tags', ctrlTags.getById)
-router.put('/:id/tags', ctrlTags.update)
-router.delete('/:id/tags', ctrlTags.deleteById)
+router.put('/:id/tags/:tagsId', ctrlTags.update)
+router.delete('/:id/tags/:tagsId', ctrlTags.deleteById)
 
 module.exports = router
