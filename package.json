@@ -21,8 +21,8 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.1",
     "morgan": "^1.9.0",
-    "uuid": "^3.1.0",
-    "npm": "^5.7.1"
+    "npm": "^5.7.1",
+    "uuid": "^3.1.0"
   },
   "description": "• Building API for a Costume Shop • MVC structure with Express",
   "repository": {
